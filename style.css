@@ -1,0 +1,392 @@
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Bahnschrift';
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #2B2A29;
+}
+
+h3 {
+    font-family: 'Bahnschrift';
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.logo {
+    width: 7%;
+}
+
+.basket {
+    margin-right: 85px;
+}
+
+.levels {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.levels p {
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.first-level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-level__items {
+    margin: 0;
+    padding: 0;
+}
+
+.second-level {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.first-level div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-level__items,
+.first-level__items li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories,
+.header__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-level ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.second-level li {
+    margin-right: 36px;
+}
+
+.category a,
+.header__link a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-level span {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background: #D9DADA;
+    border-radius: 100%;
+}
+
+.category p,
+.header__link p {
+    margin-top: 0;
+}
+
+.first__banner {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.first__banner img {
+    width: 100%;
+}
+
+.production img {
+    width: 100%;
+    max-width: 945px;
+}
+
+.production__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6B9D52;
+}
+
+.assortment {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 950px;
+}
+
+.assortment-item {
+    margin-right: 10px;
+}
+
+.assortment-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assortment-item p {
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.assortment-item img {
+    max-width: 210px;
+}
+
+.product__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__card p {
+    font-family: 'Bahnschrift';
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    color: #2B2A29;
+}
+
+.product__card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 152px;
+}
+
+.product__card>p:first-of-type {
+    font-size: 25px;
+    color: #797272;
+}
+
+.product__card button {
+    width: 182px;
+    height: 52px;
+    background: #FECF3D;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.product__card button p {
+    font-size: 20px;
+}
+
+.delivery p {
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.delivery__content {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background: linear-gradient(291.53deg, #FECF3D 3.56%, #6B9D52 69.58%);
+}
+
+.delivery__inner {
+    width: 100%;
+    max-width: 870px;
+}
+
+.delivery__advantages {
+    margin-bottom: 24px;
+}
+
+.delivery__advantages span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FECF3D;
+}
+
+.delivery__advantages div:nth-child(2) span {
+    background: #F29114;
+}
+
+.delivery__advantages div:nth-child(3) span {
+    background: #F08AA8;
+}
+
+.delivery__vars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__vars:last-of-type {
+    width: 100%;
+    max-width: 535px;
+}
+
+.delivery__vars div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 210px;
+}
+
+.loyalty {
+    max-width: 1440px;
+}
+
+.loyalty p {
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.loyalty-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program>p:first-of-type,
+.arrange>p {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.program-items div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.program-items img {
+    margin-right: 25px;
+}
+
+.arrange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrange button {
+    width: 182px;
+    height: 52px;
+    background: #FECF3D;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.arrange button p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.level-1 p {
+    font-family: Bahnschrift;
+    font-size: 30px;
+
+    color: #2B2A29;
+}
+
+.level-1>p {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.level-1__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level-1__content>p:first-of-type {
+    width: fit-content;
+}
+
+.law-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 1050px;
+}
+
+.level-2 {
+    background: #6B9D52;
+}
+
+.level-2__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join__label {
+    font-family: Bahnschrift;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin: 45px 0;
+
+    color: white;
+}
+
+.shortcuts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shortcuts a{
+    margin-right: 37px;
+}
