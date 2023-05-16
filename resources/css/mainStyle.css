@@ -1,0 +1,26 @@
+header{
+    display: flex;
+}
+
+.header__links{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+}
+
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: gray;
+    
+}
+
+p{
+    margin: 5px;
+}
