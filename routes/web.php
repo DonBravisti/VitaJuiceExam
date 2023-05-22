@@ -21,4 +21,6 @@ use App\Http\Controllers\ShopController;
 // Route::any('/news/detail/{newsID}', [TestController::class, 'GoToDetailNewsPage']);
 // Route::any('/news', [TestController::class, 'GoToNewsPage']);
 // Route::any('/create', [TestController::class, 'CreateUser']);
+
 Route::any('/', [ShopController::class, 'GoToMainPage']);
+Route::any('/{catName}', [ShopController::class, 'GoToCategoryPage']);

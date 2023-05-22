@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Front/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="Front/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="Front/slick/slick-theme.css" />
     <title>Vita juice</title>
 </head>
 
@@ -36,13 +39,16 @@
                 </div>
                 <div class="second-level">
                     <ul class="categories">
+                        
                         <li class="category">
                             <a href="">
+                                
                                 <p>Соки</p>
                                 <span></span>
                             </a>
                         </li>
-                        <li class="category">
+                        
+                        <!-- <li class="category">
                             <a href="">
                                 <p>Миксы</p>
                                 <span></span>
@@ -83,7 +89,7 @@
                                 <p>Здоровая еда</p>
                                 <span></span>
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <ul class="header__links">
@@ -117,8 +123,9 @@
         </div>
     </header>
     <hr>
-@yield('content')
+    @yield('content')
     <footer>
+        <hr>
         <div class="level-1 container">
             <p class="level-1__header">Правовая информация</p>
             <div class="level-1__content">
@@ -154,6 +161,7 @@
                 </ul>
             </div>
         </div>
+        <hr>
         <div class="level-2">
             <div class="level-2__content container">
                 <p class="join__label">присоединяйтесь к vita juice</p>
@@ -165,6 +173,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Front/slick/slick.min.js"></script>
+
+    <script src="Front/js/slider.js"></script>
 </body>
 
 </html>
